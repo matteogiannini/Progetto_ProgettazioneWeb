@@ -1,0 +1,80 @@
+#FlexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#PrivateContainer{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #72a8ac, #273c81);
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.8);
+    overflow: hidden;
+    border: 10px solid #FCE930;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 80%;
+}
+.innerflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contrcont{
+    width: 30%;
+}
+#statscont{
+    width: 70%;
+}
+#playerimg{
+    width: 30%;
+}
+#logoutbut{
+    background-color: #eb2d2e;
+    margin-top: 3vh;
+    transition: transform 0.3s;
+    width: 40%;
+    height: 40px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+
+}
+#logoutbut:hover {
+    background-color: #ff4647;
+    transform: scale(1.10);
+    border: 5px solid #FCE930;
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.8);
+}
+
+.TabContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    margin-top: 10px;
+}
+
+th {
+    background-color: #32347f;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: auto;
+}

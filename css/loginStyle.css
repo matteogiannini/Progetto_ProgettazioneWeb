@@ -1,0 +1,77 @@
+.formContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #72a8ac, #273c81);
+    border: 10px solid #FCE930;
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.8);
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid 5px #FCE930;
+    background-color: #3e6585;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px ;
+    font-size: 0.8vw;
+    color: white;
+    font-family: 'Press Start 2P',cursive;
+    
+}
+
+#SwitchScreen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+button,
+#closepopup {
+    padding: 12px 24px;
+    background-color: #e79c25;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Press Start 2P',cursive;
+}
+
+#switchbut{
+    margin-top: 20px;
+}
+
+
+button:hover,
+#closepopup:hover {
+    background-color: #c4351f;
+}
+
+
+#logError{
+    width: 75vw;
+    max-width: 450px;
+}
+
+#logError > div{
+    margin-bottom: 2vh;
+}
+

@@ -1,0 +1,84 @@
+body{
+    background-image: url("../images/invadersBG.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.header{
+    max-height: 5vw;
+
+    width: 100%;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    
+}
+.logo{
+    max-height: 6vw;
+    width: auto;
+    min-height: 10vh;
+}
+
+#GameGuide{
+    background-color: #9ec55d;
+    width: 80vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #FCE930;
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.8);
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cont>img{
+    width: 20%;
+}
+figcaption{
+    margin-top: 20px;
+
+}
+figure{
+    width: 30%;
+}
+figure>img{
+    height: 200px;
+}
+.cont>div{
+    width: 80%;
+    margin: 50px;
+}
+h3{
+    font-size: 2rem;
+    color: black;
+}
+#figContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#GamePlay{
+    width: 100%;
+}
+#AliensCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#FlexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

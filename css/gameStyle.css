@@ -1,0 +1,105 @@
+#GameContainer{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 10px solid #FCE930;
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.8);
+    overflow: hidden;
+    width: 95vh;
+    background: linear-gradient(to bottom, #000000, #030381);
+    padding: 10px;
+}
+body{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+#Score{
+    margin-top: 3vh;
+    height: 10%;
+    text-align: center;
+}
+canvas{
+    
+    width: 90%;
+    padding: 30px;
+   
+    
+}
+.blu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000000, #030381);
+    z-index: 1;
+}
+.lossMSG{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 4vw;
+    z-index: 2;
+}
+.lossMSGBG{
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 4vw;
+    z-index: 2;
+    color: #FCE930;
+}
+.winMSGBG{
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 4vw;
+    z-index: 2;
+    color: #1bb3cd;
+}
+.gameBut{
+    display: block;
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: #FCE930;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5vw;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#playBut:hover{
+    background-color: #2ace59;
+    color: #000;
+}
+#quitBut:hover{
+    background-color: #EB2D2E;
+    color: #000;
+}
+
+#gameButCont{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+    top: 80%;
+    z-index: 2;
+}
+.scoreDiv{
+    display: inline;
+}
+
