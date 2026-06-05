@@ -39,7 +39,7 @@ Users register and log in, play the game in the browser, and the application per
 
 ## Setup & run
 
-Requires a PHP-capable web server with MySQL (e.g. XAMPP/MAMP or a LAMP stack).
+Requires a PHP-capable web server with MySQL (e.g. XAMPP).
 
 1. Import the database:
 
